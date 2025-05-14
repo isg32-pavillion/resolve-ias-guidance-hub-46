@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Telegram, Mail, Youtube } from "lucide-react";
+import { MessageCircle, Mail, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
               Your strategic partner for UPSC preparation with practical tips, study plans, and answer-writing strategies.
             </p>
             <div className="flex space-x-4">
-              <SocialLink href="https://t.me/upscresolve" icon={<Telegram className="h-5 w-5" />} />
+              <SocialLink href="https://t.me/upscresolve" icon={<MessageCircle className="h-5 w-5" />} />
               <SocialLink href="mailto:upscresolve@gmail.com" icon={<Mail className="h-5 w-5" />} />
               <SocialLink href="https://www.youtube.com/@UPSCResolvee" icon={<Youtube className="h-5 w-5" />} />
             </div>

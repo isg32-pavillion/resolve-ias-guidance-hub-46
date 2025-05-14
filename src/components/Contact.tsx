@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Youtube, Mail, Telegram } from "lucide-react";
+import { MessageCircle, Mail, Youtube } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -23,7 +22,7 @@ const Contact = () => {
                 
                 <div className="space-y-6">
                   <ContactOption 
-                    icon={<Telegram className="h-5 w-5" />}
+                    icon={<MessageCircle className="h-5 w-5" />}
                     title="Join Our Telegram Community"
                     description="Get daily updates, study materials, and connect with fellow aspirants"
                     action={
